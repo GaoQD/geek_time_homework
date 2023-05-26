@@ -30,7 +30,7 @@ class TestCreateHero:
         assert res.get('name') == name
         assert res.get('volume') == volume
 
-    @pytest.mark.parametrize("volume", [0, 100], ids=["边界值为0", "边界值为100"])
+    @pytest.mark.parametrize("volume", [0, 100], ids=["血量边界值为0", "血量边界值为100"])
     def test_create_hero_fail_1(self, volume):
         """
         创建英雄失败的测试用例
@@ -41,7 +41,7 @@ class TestCreateHero:
         res = self.hero_management.find_hero('name')
         assert res == False
 
-    @pytest.mark.parametrize("name,volume", [("jinx", 0), ("ez", 100)], ids = ['边界值为0', '边界值为100'])
+    @pytest.mark.parametrize("name,volume", [("jinx", 0), ("ez", 100)], ids = ["血量边界值为0", "血量边界值为100"])
     def test_create_hero_fail_2(self, name, volume):
         """
         创建英雄失败的测试用例
