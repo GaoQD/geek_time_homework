@@ -54,15 +54,3 @@ class HeroManagement:
             if res == i["name"]:
                 return i
         return False
-
-    @staticmethod
-    def is_float_num(num):
-        """
-        判断是否为浮点数
-        :param num:
-        :return:
-        """
-        nums = str(num).split(".")
-        if len(nums) > 2:
-            return False
-        return True
