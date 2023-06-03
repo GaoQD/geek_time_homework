@@ -1,0 +1,6 @@
+vloumesuccess: [1, 2, 98, 99]
+volume_fail: ["x", False, 0, 100]
+name_success: ['jinx', 'ez', 'timo']
+name_fail: [1, False]
+power_success: [1, 2, 98, 99]
+power_fail: ["x", False, 0, -1, 1.1, a]
