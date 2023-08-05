@@ -15,6 +15,7 @@ class WeworkPage(BasePage):
 
     def __init__(self, driver=None, caps=None):
         caps = {}
+        # 保留登录状态 noReset = True
         caps['noReset'] = True
         caps['appPackage'] = 'com.tencent.wework'
         caps['appActivity'] = 'com.tencent.wework.launch.LaunchSplashActivity'
