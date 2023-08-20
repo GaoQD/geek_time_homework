@@ -1,0 +1,157 @@
+{
+  "keyword_fail": [
+    "ssssssssssssssss",
+    "",
+    "!+@"
+  ],
+  "keyword_fail_ids": [
+    "超长字符串",
+    "空字符串",
+    "特殊字符串"
+  ],
+  "keyword_success": [
+    "test",
+    "aaaa"
+  ],
+  "keyword_success_ids": [
+    "标题，内容搜索成功",
+    "标题中没有关键字但内容有"
+  ],
+  "topic_post_success": [
+    [
+      "test",
+      "话题/帖子"
+    ]
+  ],
+  "topic_post_success_ids": [
+    "话题/帖子搜索成功"
+  ],
+  "category_tag_success": [
+    [
+      "test",
+      "类别/标签"
+    ]
+  ],
+  "category_tag_success_ids": [
+    "话题/帖子搜索成功"
+  ],
+  "category_tag_fail": [
+    [
+      "aaaaa",
+      "类别/标签"
+    ],
+    [
+      "",
+      "类别/标签"
+    ],
+    [
+      "‘",
+      "类别/标签"
+    ]
+  ],
+  "category_tag_fail_ids": [
+    "超长字符串",
+    "空字符串",
+    "中文单引号字符串"
+  ],
+  "user_success": [
+    [
+      "张",
+      "用户"
+    ],
+    [
+      "_123",
+      "用户"
+    ],
+    [
+      "1292268322_no_phone",
+      "用户"
+    ]
+  ],
+  "user_success_ids": [
+    "中文成功",
+    "下划线开头和数字成功",
+    "超长字符串也会成功"
+  ],
+  "user_fail": [
+    [
+      "'",
+      "用户"
+    ],
+    [
+      "@",
+      "用户"
+    ],
+    [
+      "",
+      "用户"
+    ]
+  ],
+  "user_fail_ids": [
+    "英文单引号",
+    "特殊字符",
+    "空字符"
+  ],
+  "author_success": [
+    [
+      "hogwarts",
+      "话题/帖子",
+      "hogwarts"
+    ]
+  ],
+  "author_success_ids": [
+    "发帖人搜索成功"
+  ],
+  "author_fail": [
+    "@"
+  ],
+  "author_fail_ids": [
+    "特殊字符失败"
+  ],
+  "search_date_success": [
+    [
+      "测试",
+      "话题/帖子",
+      "晚于",
+      "2023/05/10"
+    ],
+    [
+      "测试",
+      "话题/帖子",
+      "早于",
+      "2023/05/10"
+    ]
+  ],
+  "search_date_success_ids": [
+    "测试晚日期",
+    "测试早于日期"
+  ],
+  "only_title_success": [
+    [
+      "test",
+      "话题/帖子"
+    ]
+  ],
+  "only_title_success_ids": [
+    "筛选只有标题"
+  ],
+  "only_title_fail": [
+    [
+      "",
+      "话题/帖子"
+    ],
+    [
+      "aaaaa",
+      "话题/帖子"
+    ],
+    [
+      "@",
+      "话题/帖子"
+    ]
+  ],
+  "only_title_fail_ids": [
+    "空字符串",
+    "内容有但标题中没有",
+    "特殊字符"
+  ]
+}
